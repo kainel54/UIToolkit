@@ -12,15 +12,58 @@
     flex-direction: row;
     width: 300%;
     height: 100%;
-    position: absolute;
+    position: relative;
     left: 0;
     flex-basis: auto;
 }
 
 #btns {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 0;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#home:hover {
+    background-image: url('project://database/Assets/3643769-building-home-house-main-menu-start_113416.png?fileID=21300000&guid=7bdddfb4f97a70d4eb243d3d12acb441&type=3#3643769-building-home-house-main-menu-start_113416');
+    -unity-background-scale-mode: scale-to-fit;
+    color: rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+}
+
+#music:hover {
+    color: rgba(27, 27, 27, 0);
+    background-image: url('project://database/Assets/quaver_114799.png?fileID=21300000&guid=5c1743e43769a124f89c16486608001c&type=3#quaver_114799');
+    -unity-background-scale-mode: scale-to-fit;
+    transition-duration: 0.3s;
+}
+
+#game:hover {
+    background-image: url('project://database/Assets/game_icon_176683.png?fileID=21300000&guid=49dbe24ba185f3c48adf5f57ace87a46&type=3#game_icon_176683');
+    color: rgba(27, 27, 27, 0);
+    transition-duration: 0.3s;
+}
+
+#home {
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 130px;
+    -unity-text-align: middle-center;
+    font-size: 40px;
+}
+
+#music {
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 130px;
+    -unity-text-align: middle-center;
+}
+
+#game {
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 130px;
+    -unity-text-align: middle-center;
 }
