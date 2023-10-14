@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/09.UI/MainScreen.uss?fileID=7433441132597879392&amp;guid=ebcb5a1578e8c6e44a4b4596a6da2916&amp;type=3#MainScreen" />
+    <ui:VisualElement name="container">
+        <ui:VisualElement name="header" style="flex-basis: 130px; flex-direction: row; justify-content: space-around;">
+            <ui:Label tabindex="-1" text="Home" parse-escape-sequences="true" display-tooltip-when-elided="true" name="home-label" class="lbl-title" />
+            <ui:Label tabindex="-1" text="Inventory" parse-escape-sequences="true" display-tooltip-when-elided="true" name="inventory-label" class="lbl-title" />
+            <ui:Label tabindex="-1" text="Equip" parse-escape-sequences="true" display-tooltip-when-elided="true" name="equip-label" class="lbl-title" />
+            <ui:Label tabindex="-1" text="Friend" parse-escape-sequences="true" display-tooltip-when-elided="true" name="friend-label" class="lbl-title" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content" focusable="true" style="align-items: stretch; flex-direction: row; justify-content: space-around;">
+            <ui:VisualElement name="slide-box">
+                <ui:VisualElement name="page-one" class="page">
+                    <ui:VisualElement name="container-value" class="container-value" />
+                    <ui:VisualElement class="container-value" style="background-color: rgb(255, 255, 255); margin-bottom: 100px; align-items: center; padding-top: 50px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="page-two" class="page" style="background-color: rgb(88, 217, 255);" />
+                <ui:VisualElement name="page-three" class="page" style="background-color: rgb(255, 199, 0);" />
+                <ui:VisualElement name="page-four" class="page" style="background-color: rgb(170, 255, 0);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
