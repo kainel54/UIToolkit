@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="card-border" class="card-border" style="transition-duration: 0.3s;">
+        <ui:VisualElement name="card-content" class="card-content">
+            <ui:VisualElement name="img-container" style="flex-grow: 1;">
+                <ui:VisualElement name="image" class="image" style="background-image: url(&apos;project://database/Assets/Textures/img_rodolfo.png?fileID=2800000&amp;guid=3a2078d58c141cd498e7a0af160fb034&amp;type=3#img_rodolfo&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="name-box" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Gondr" parse-escape-sequences="true" display-tooltip-when-elided="true" name="name-label" class="name-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="info-box" style="flex-basis: 180px; background-color: rgb(250, 194, 72); align-items: center; justify-content: center; padding-top: 0; padding-right: 20px; padding-bottom: 0; padding-left: 20px; margin-top: 20px; margin-bottom: 20px;">
+                <ui:Label tabindex="-1" text="Some Infomation" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info-label" style="white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,94 @@
+#container {
+    flex-direction: row;
+}
+
+.side-bar {
+    flex-basis: 450px;
+    flex-shrink: 0;
+    background-color: rgb(254, 242, 130);
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.content {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(16, 28, 44);
+    flex-wrap: wrap;
+}
+
+.card-content {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 32, 53);
+}
+
+.card-content > #img-container {
+    flex-basis: 180px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    height: auto;
+    flex-direction: column;
+}
+
+.image {
+    width: 128px;
+    height: 128px;
+    background-image: url('project://database/Assets/game_icon_176683.png?fileID=21300000&guid=49dbe24ba185f3c48adf5f57ace87a46&type=3#game_icon_176683');
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.name-label {
+    font-size: 30px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px -2px 3px rgba(0, 0, 0, 0.77);
+}
+
+.card-border {
+    margin-bottom: 20px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    translate: 0 -400px;
+    opacity: 0;
+}
+
+.card-border:hover {
+    border-left-color: rgb(254, 242, 130);
+    border-right-color: rgb(254, 242, 130);
+    border-top-color: rgb(254, 242, 130);
+    border-bottom-color: rgb(254, 242, 130);
+    overflow: hidden;
+}
+
+.input-control {
+}
+
+.input-control > #unity-text-input {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    flex-grow: 1;
+}
+
+.card-border.on {
+    opacity: 1;
+    translate: 0 0;
+}
