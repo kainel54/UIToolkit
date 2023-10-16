@@ -43,9 +43,26 @@ public class CardBinding : MonoBehaviour
         txtDesc.RegisterCallback<ChangeEvent<string>>(OnDescChanged);
     }
 
-    private void ShowAllClick(ClickEvent evt)
+    private async void ShowAllClick(ClickEvent evt)
     {
+        for (int i = 0; i < charList.Count; i++)
+        {
+            var template = cardTemplate.Instantiate().Q<VisualElement>("card-border");
+            string name = charList[i].charname;
+            string desc = charList[i].description;
+            Sprite sprite = charList[i].sprite;
+            Character character = new Character(name,desc,sprite);
+            Card card = new Card(template, character);
         
+            cardList.Add(card);
+
+            contentBox.Add(template);
+
+            await Task.Delay(500);
+            template.AddToClassList("on");
+        }
+
+
     }
 
     private void OnNameChanged(ChangeEvent<string> evt)

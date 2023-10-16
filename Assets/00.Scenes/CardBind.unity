@@ -373,10 +373,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charList:
-  - {fileID: 11400000, guid: ad59ce2cdfc3b144da70874585f2662f, type: 2}
-  - {fileID: 11400000, guid: c0a765e6d12043340aaba445c928e0b4, type: 2}
-  - {fileID: 11400000, guid: 0a244cdd564d31e44b9730c3bfef1edb, type: 2}
-  - {fileID: 11400000, guid: fc42584b9dfddd846ae8dfedc35b4db1, type: 2}
+  - {fileID: 11400000, guid: 938bd3d9a84f89a44a09b48dedb64838, type: 2}
+  - {fileID: 11400000, guid: fb5e884db231c304cb7067356d625773, type: 2}
+  - {fileID: 11400000, guid: ec47e855958f49045ad1587099a113a4, type: 2}
+  - {fileID: 11400000, guid: daf2164a58ec7cb4bb1fd42fb19fd75b, type: 2}
   defaultSprite: {fileID: 21300000, guid: 3a2078d58c141cd498e7a0af160fb034, type: 3}
   cardTemplate: {fileID: 9197481963319205126, guid: dc0ce08c245c1274ebd00b0bfe062558, type: 3}
 --- !u!114 &884913770
