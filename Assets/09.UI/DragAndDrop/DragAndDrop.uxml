@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/09.UI/DragAndDrop/DragAndDrop.uss?fileID=7433441132597879392&amp;guid=f0029dbef85a2d54d8b67a45607693c5&amp;type=3#DragAndDrop" />
+    <ui:VisualElement name="container" class="container">
+        <ui:VisualElement name="potion" style="position: absolute; left: 20px; bottom: 20px; width: 128px; height: 128px; background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Textures/PlusFill.png?fileID=2800000&amp;guid=c1778d5a901770848b67972e1cc843a7&amp;type=3#PlusFill&apos;);" />
+        <ui:Label tabindex="-1" text="Gondr" parse-escape-sequences="true" display-tooltip-when-elided="true" name="name-label" class="name-label" />
+    </ui:VisualElement>
+</ui:UXML>
