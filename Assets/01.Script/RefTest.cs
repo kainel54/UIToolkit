@@ -9,7 +9,7 @@ public class RefTest : MonoBehaviour
 {
     private TestScript _test;
 
-    private void Start()
+    /*private void Start()
     {
         _test = new TestScript(10, 20);
 
@@ -31,5 +31,5 @@ public class RefTest : MonoBehaviour
         //{
         //    Debug.Log(method.Name);
         //}
-    }
+    }*/
 }

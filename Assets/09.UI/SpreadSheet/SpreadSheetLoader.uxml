@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/09.UI/SpreadSheet/SpreadSheetLoader.uss?fileID=7433441132597879392&amp;guid=338da3c3a0b92d449af3e9d1c2e5d9e8&amp;type=3#SpreadSheetLoader" />
+    <ui:VisualElement name="container" class="container">
+        <ui:VisualElement name="top-row" class="top-row">
+            <ui:TextField picking-mode="Ignore" value="url here" name="txt-url" class="txt-url" />
+            <ui:Button text="Load" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-load" class="btn" style="border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content-row" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="상태라벨" parse-escape-sequences="true" display-tooltip-when-elided="true" name="status-label" style="padding-top: 20px; padding-right: 10px; padding-bottom: 20px; padding-left: 10px; flex-grow: 0;" />
+            <ui:VisualElement name="loading-icon" class="loading-icon" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

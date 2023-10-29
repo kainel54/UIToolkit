@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
     <Style src="project://database/Assets/Editer/CreateChar.uss?fileID=7433441132597879392&amp;guid=b6dae8e36cdfccc4c989716b7b4d4c9f&amp;type=3#CreateChar" />
     <ui:VisualElement name="container" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Editer/image.png?fileID=21300000&amp;guid=c636e3b8759f4614180d005749396685&amp;type=3#image&apos;); -unity-background-scale-mode: scale-to-fit;">
-        <ui:VisualElement name="input-nox" style="flex-grow: 1;">
+        <ui:VisualElement name="input-nox" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/04.Textures/Face1.png?fileID=21300000&amp;guid=53ddab6a9f18eac40934bd77e0dc6847&amp;type=3#Face1&apos;);">
             <ui:TextField picking-mode="Ignore" label="캐릭터 이름" name="name-txt" class="input-field" />
             <ui:TextField picking-mode="Ignore" label="캐릭터 설명" name="desc-txt" multiline="false" class="input-field multiline" />
             <uie:ObjectField label="Sprite" type="UnityEngine.Sprite, UnityEngine.CoreModule" name="object-sprite" class="input-field" />

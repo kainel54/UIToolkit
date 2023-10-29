@@ -1,34 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using ToolkitMessageSystem;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class TestScript 
+public class TestScript :MonoBehaviour
 {
-    private int abc;
-    public int def;
-
-    public TestScript(int abc, int def)
+    private void Update()
     {
-        this.abc = abc;
-        this.def = def;
-    }
-
-    public void PrintABC()
-    {
-        Debug.Log(abc);
-    }
-
-    public void TestA()
-    {
-        Debug.Log("TestA");
-
-    }
-    public void TestB()
-    {
-        Debug.Log("TestB");
-    }
-    public void TestC()
-    {
-        Debug.Log("TestC");
+        if (Keyboard.current.qKey.wasPressedThisFrame)
+        {
+            MessageHub.OnMessage?.Invoke("테스트 메시지 입니다.", MessageColor.Red);
+        }
     }
 }
